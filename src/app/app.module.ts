@@ -3,16 +3,20 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { YxTitleComponent } from './yx-title/yx-title.component';
+import { DomHandler } from './svc/domhandler';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    YxTitleComponent,
+    // DomHandler
   ],
   imports: [
-    BrowserModule
+    BrowserModule 
   ],
-  providers: [],
+  providers:  [  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
