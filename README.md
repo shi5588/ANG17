@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-# Ang17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+# Ang17
+内部培训演示项目。工程创建使用的是 [Angular CLI](https://github.com/angular/angular-cli) 1.7.4.
+最新版本的angular/cli有bug, 所以用了旧版本
 
 ## Development server
 
@@ -26,7 +26,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# ANG17
-This is angular4 test project.
->>>>>>> 25612ab7183ce485482d541bd4db1ece21e37622
+
