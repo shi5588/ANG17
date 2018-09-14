@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  getClass(){
+    const style = 'font-weight:900';
+    return style;
+  }
 }

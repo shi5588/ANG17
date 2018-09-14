@@ -11,14 +11,17 @@ export class YxTitleComponent implements OnInit {
   private m_captionClass = '';
   private m_contentClass = '';
 
-  @Input() 
-  set captionClass(value) { //标题的css类名
-    console.log('captionClass属性设值%o', value);
-    this.m_captionClass = value;
-  }
-  get captionClass(): string {
-    return this.m_captionClass;
-  }
+  @Input() capStyle: any;
+  @Input() contentStyle: any;
+
+  @Input() captionClass: any;
+  // set captionClass(value) { //标题的css类名
+  //   console.log('captionClass属性设值%o', value);
+  //   this.m_captionClass = value;
+  // }
+  // get captionClass(): string {
+  //   return this.m_captionClass;
+  // }
 
   @Input() 
   contentClass: string; //标题的css类名 

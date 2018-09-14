@@ -1,10 +1,10 @@
 
-
-<div style="width: 500px; height: 60px; background-color: #cff;" [class]="captionClass" >
+<!-- 这里样式是起作用了，但只有组件内的样式，  -->
+<div style="width: 500px; height: 60px; background-color: #cff;" [style]="captionClass"   >
   <label class="label1">
     {{caption}}
   </label>  
 </div>
-<div style="width: 500px; height: 60px; background-color: #ffc;" [class]="contentClass"  >
+<div style="width: 500px; height: 60px; background-color: #ffc;" [class]="contentClass" [style]="contentStyle"   >
   <ng-content></ng-content>
 </div>
