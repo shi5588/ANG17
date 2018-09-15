@@ -1,7 +1,7 @@
 
 # Ang17
 内部培训演示项目。工程创建使用的是 [Angular CLI](https://github.com/angular/angular-cli) 1.7.4.
-最新版本的angular/cli有bug, 所以用了旧版本
+最新版本的Angular CLI有bug, 所以用了旧版本
 
 ## Development server
 
