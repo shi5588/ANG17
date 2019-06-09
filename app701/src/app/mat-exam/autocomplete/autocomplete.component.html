@@ -1,0 +1,10 @@
+<form class="example-form">
+  <mat-form-field>
+    <input type="text" matInput [formControl]="myControl">
+  </mat-form-field>
+
+  <mat-slide-toggle [checked]="stateCtrl.disabled" (change)="stateCtrl.disabled ? stateCtrl.enable() : stateCtrl.disable()">
+    Disable Input?
+  </mat-slide-toggle>
+</form>
+
