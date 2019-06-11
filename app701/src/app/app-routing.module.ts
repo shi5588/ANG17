@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' }, // 不输入路径时
   { path: 'login', component: LoginComponent },
   { path: '404', component: P404Component },
-  { path: 'mat', loadChildren: './mat-exam/mat-exam.module#MatExamModule' },
+  { path: 'mat', loadChildren: './mat-study/mat-study.module#MatStudyModule' },
   { path: '**', redirectTo: '404' },
 ];
 
